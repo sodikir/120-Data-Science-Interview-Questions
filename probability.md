@@ -60,3 +60,4 @@ The result is between 0 (000) and 7 (111), evenly spread (3 independent throw). 
 #### 20. What is a P-Value ?
   * The probability to obtain a similar or more extreme result than observed when the null hypothesis is assumed.
   * ⇒ If the p-value is small, the null hypothesis is unlikely
+  https://en.wikipedia.org/wiki/P-value
