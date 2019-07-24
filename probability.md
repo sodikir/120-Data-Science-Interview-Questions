@@ -20,7 +20,8 @@ The result is between 0 (000) and 7 (111), evenly spread (3 independent throw). 
 #### 8. You have a group of couples that decide to have children until they have their first girl, after which they stop having children. What is the expected gender ratio of the children that are born? What is the expected number of children each couple will have?
   - gender ratio is 1:1. Expected number of children is 2. let X be the number of children until getting a female (happens with prob 1/2). this follows a geometric distribution with probability 1/2
 #### 9. How many ways can you split 12 people into 3 teams of 4?
-  - the outcome follows a multinomial distribution with n=12 and k=3. but the classes are indistinguishable
+  - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Tי outcome follows a multinomial distribution with n=12 and k=3. but the classes are indistinguishable
+  The answer s 12!/(4! 4! 4! 3!).
 #### 10. Your hash function assigns each object to a number between 1:10, each with equal probability. With 10 objects, what is the probability of a hash collision? What is the expected number of hash collisions? What is the expected number of hashes that are unused.
   - the probability of a hash collision: 1-(10!/10^10)
   - the expected number of hash collisions: 1-10*(9/10)^10
